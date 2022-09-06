@@ -1,5 +1,11 @@
 @import "variables";
 
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+}
 
 section {
     height: 100vh;
@@ -10,7 +16,10 @@ section {
     justify-content: center;
 
     padding: 0 20px;
+
+    scroll-snap-align: start;
 }
+
 
 #about-1 {
     background-image: url(../../assets/about-1.png);
@@ -33,6 +42,51 @@ section {
         
         position: absolute;
         top: 280px;
+    }
+
+    p {
+        position: absolute;
+        top: 475px;
+
+        font-weight: 300;
+        font-size: 24px;
+    }
+}
+
+.about-1 {
+    position: relative;
+    padding: 0;
+
+    .bg {
+        height: 100vh;
+    }
+
+    .logo {
+        transform: rotate(-8.19deg);
+        width: 240px;
+        
+        position: absolute;
+        left: -20px;
+        top: 150px;
+    }
+    
+    h3 {
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 43px;
+        
+        position: absolute;
+        left: 20px;
+        top: 280px;
+    }
+
+    p {
+        position: absolute;
+        left: 20px;
+        top: 475px;
+
+        font-weight: 300;
+        font-size: 24px;
     }
 }
 
