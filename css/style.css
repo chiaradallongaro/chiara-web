@@ -16,11 +16,14 @@ section {
   font-size: 36px;
   line-height: 43px;
 }
-#about-skills h4 {
+#about-skills .skill {
+  margin: 15px 0;
+}
+#about-skills .skill h4 {
   font-weight: 300;
   font-size: 24px;
 }
-#about-skills p {
+#about-skills .skill p {
   font-weight: 300;
   font-size: 14px;
 }
