@@ -9,6 +9,8 @@ section {
 
 #about-1 {
   background-image: url(../../assets/about-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #about-1 img {
   transform: rotate(-8.19deg);
@@ -44,6 +46,10 @@ section {
 
 .fashion-section {
   position: relative;
+  padding: 0;
+}
+.fashion-section img {
+  height: 100vh;
 }
 .fashion-section h3 {
   font-weight: 300;
@@ -52,44 +58,9 @@ section {
   color: white;
   transform: rotate(-90deg);
   position: absolute;
-  bottom: 140px;
-  right: -90px;
-}
-
-#fashion-1 {
-  background-image: url(../../assets/fashion/stupia.png);
-}
-
-#fashion-2 {
-  background-image: url(../../assets/fashion/maison-marigela.png);
-}
-
-#fashion-3 {
-  background-image: url(../../assets/fashion/sacai.png);
-}
-
-#fashion-4 {
-  background-image: url(../../assets/fashion/queens-gambit.png);
-}
-
-#fashion-5 {
-  background-image: url(../../assets/fashion/origami.png);
-}
-
-#fashion-6 {
-  background-image: url(../../assets/fashion/yves-klein.png);
-}
-
-#fashion-7 {
-  background-image: url(../../assets/fashion/latinoamericano.png);
-}
-
-#fashion-8 {
-  background-image: url(../../assets/fashion/film.png);
-}
-
-#fashion-9 {
-  background-image: url(../../assets/fashion/details.png);
+  bottom: 209px;
+  left: 142px;
+  width: 100%;
 }
 
 * {
