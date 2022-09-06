@@ -103,7 +103,7 @@ a {
   .about-1 .logo {
     width: 184px;
     position: absolute;
-    left: 15%;
+    left: 20%;
     top: 188px;
   }
   .about-1 h3 {
@@ -130,6 +130,7 @@ a {
     font-weight: 300;
     font-size: 36px;
     line-height: 43px;
+    margin-bottom: 20px;
   }
   .about-section .skill {
     margin: 15px 0;
