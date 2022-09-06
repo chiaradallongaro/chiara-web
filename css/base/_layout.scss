@@ -23,38 +23,6 @@ section {
 // MOBILE
 @media only screen and (max-width: $break-1) {
 
-    #about-1 {
-        background-image: url(../../assets/about-1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-
-        img {
-            width: 240px;
-            
-            position: absolute;
-            left: -20px;
-            top: 150px;
-        }
-        
-        h3 {
-            font-weight: 300;
-            font-size: 36px;
-            line-height: 43px;
-            
-            position: absolute;
-            top: 280px;
-        }
-
-        p {
-            position: absolute;
-            top: 475px;
-            width: 90%;
-
-            font-weight: 300;
-            font-size: 24px;
-        }
-    }
-
     .about-1 {
         position: relative;
         padding: 0;
@@ -100,7 +68,7 @@ section {
         
         .skill {
             margin: 15px 0;
-            h4 {
+            h4, a {
                 font-weight: 300;
                 font-size: 24px;
                 color: black;
@@ -191,7 +159,7 @@ section {
         
         .skill {
             margin: 15px 0;
-            h4 {
+            h4, a {
                 font-weight: 300;
                 font-size: 24px;
                 color: black;
