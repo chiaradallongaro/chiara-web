@@ -10,20 +10,34 @@ section {
 #about-1 {
   background-image: url(../../assets/about-1.png);
 }
+#about-1 img {
+  transform: rotate(-8.19deg);
+  width: 240px;
+  position: absolute;
+  left: -20px;
+  top: 150px;
+}
+#about-1 h3 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
+  position: absolute;
+  top: 280px;
+}
 
-#about-skills h3 {
+.about-section h3 {
   font-weight: 300;
   font-size: 36px;
   line-height: 43px;
 }
-#about-skills .skill {
+.about-section .skill {
   margin: 15px 0;
 }
-#about-skills .skill h4 {
+.about-section .skill h4 {
   font-weight: 300;
   font-size: 24px;
 }
-#about-skills .skill p {
+.about-section .skill p {
   font-weight: 300;
   font-size: 14px;
 }
@@ -36,6 +50,7 @@ section {
 }
 
 nav {
+  z-index: 99;
   position: fixed;
   width: 100%;
   height: 100px;

@@ -13,10 +13,27 @@ section {
 }
 
 #about-1 {
-    background-image: url(../../assets/about-1.png)
+    background-image: url(../../assets/about-1.png);
+    img {
+        transform: rotate(-8.19deg);
+        width: 240px;
+
+        position: absolute;
+        left: -20px;
+        top: 150px;
+    }
+
+    h3 {
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 43px;
+
+        position: absolute;
+        top: 280px;
+    }
 }
 
-#about-skills {
+.about-section {
     h3 {
         font-weight: 300;
         font-size: 36px;
