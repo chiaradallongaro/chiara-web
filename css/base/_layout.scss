@@ -29,7 +29,6 @@ section {
         background-size: cover;
 
         img {
-            transform: rotate(-8.19deg);
             width: 240px;
             
             position: absolute;
@@ -49,6 +48,7 @@ section {
         p {
             position: absolute;
             top: 475px;
+            width: 90%;
 
             font-weight: 300;
             font-size: 24px;
@@ -137,6 +137,7 @@ section {
 @media only screen and (min-width: $break-1) {
 
     .about-1 {
+        height: 100vh;
         position: relative;
         padding: 0;
 
@@ -150,7 +151,6 @@ section {
         }
 
         .logo {
-            transform: rotate(-8.19deg);
             width: 300px;
             
             position: absolute;
@@ -177,6 +177,51 @@ section {
             font-size: 24px;
 
             width: 50%;
+        }
+    }
+
+    .about-section {
+        h3 {
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 43px;
+        }
+        
+        .skill {
+            margin: 15px 0;
+            h4 {
+                font-weight: 300;
+                font-size: 24px;
+            }
+            p {
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .fashion-section {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+        img {
+            height: 80%;
+            width: 30%;
+            object-fit: cover;
+
+        }
+        h3 {
+            transform: rotate(-90deg);
+            position: absolute;
+            bottom: 15%;
+            left: 45%;
+            color: black;
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 43px;
         }
     }
 }
