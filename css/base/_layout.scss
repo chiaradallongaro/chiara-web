@@ -111,11 +111,11 @@ a {
     .about-1 {
         height: 100vh;
         position: relative;
-        padding: 0;
+        padding: 3% 0 0 0;
 
         .bg {
-            height: 80%;
-            width: 30%;
+            height: 82%;
+            width: 27%;
             object-fit: cover;
             position: absolute;
             right: 20%;
@@ -182,7 +182,7 @@ a {
     }
 
     .fashion-section {
-        padding: 0;
+        padding: 3% 0 0 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -193,8 +193,8 @@ a {
             align-items: flex-end;
         }
         img {
-            height: 80%;
-            width: 30%;
+            height: 82%;
+            width: 27%;
             object-fit: cover;
             position: absolute;
             left: 25%;

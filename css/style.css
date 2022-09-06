@@ -90,11 +90,11 @@ a {
   .about-1 {
     height: 100vh;
     position: relative;
-    padding: 0;
+    padding: 3% 0 0 0;
   }
   .about-1 .bg {
-    height: 80%;
-    width: 30%;
+    height: 82%;
+    width: 27%;
     -o-object-fit: cover;
        object-fit: cover;
     position: absolute;
@@ -155,7 +155,7 @@ a {
     font-size: 14px;
   }
   .fashion-section {
-    padding: 0;
+    padding: 3% 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,8 +167,8 @@ a {
     align-items: flex-end;
   }
   .fashion-section img {
-    height: 80%;
-    width: 30%;
+    height: 82%;
+    width: 27%;
     -o-object-fit: cover;
        object-fit: cover;
     position: absolute;
