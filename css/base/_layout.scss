@@ -20,6 +20,10 @@ section {
     scroll-snap-align: start;
 }
 
+a {
+    text-decoration: none;
+}
+
 // MOBILE
 @media only screen and (max-width: $break-1) {
 
@@ -87,7 +91,7 @@ section {
         img {
             height: 100vh;
         }
-        h3 {
+        h3, a {
             transform: rotate(-90deg);
             position: absolute;
             bottom: 209px;
