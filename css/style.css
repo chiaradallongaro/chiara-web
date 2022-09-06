@@ -42,6 +42,28 @@ section {
   font-size: 14px;
 }
 
+.fashion-section {
+  position: relative;
+}
+.fashion-section h3 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
+  color: white;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 140px;
+  right: -90px;
+}
+
+#fashion-1 {
+  background-image: url(../../assets/fashion/stupia.png);
+}
+
+#fashion-2 {
+  background-image: url(../../assets/fashion/maison-marigela.png);
+}
+
 * {
   padding: 0;
   margin: 0;
