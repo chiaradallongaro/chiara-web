@@ -81,6 +81,8 @@ section {
   .about-section .skill h4 {
     font-weight: 300;
     font-size: 24px;
+    color: black;
+    text-decoration: none;
   }
   .about-section .skill p {
     font-weight: 300;
@@ -141,6 +143,9 @@ section {
     font-size: 24px;
     width: 50%;
   }
+  .about-section {
+    padding-left: 20%;
+  }
   .about-section h3 {
     font-weight: 300;
     font-size: 36px;
@@ -152,6 +157,8 @@ section {
   .about-section .skill h4 {
     font-weight: 300;
     font-size: 24px;
+    color: black;
+    text-decoration: none;
   }
   .about-section .skill p {
     font-weight: 300;
@@ -163,6 +170,11 @@ section {
     justify-content: center;
     align-items: center;
     position: relative;
+    flex-direction: row;
+  }
+  .fashion-section div {
+    display: flex;
+    align-items: flex-end;
   }
   .fashion-section img {
     height: 80%;
@@ -171,14 +183,14 @@ section {
        object-fit: cover;
   }
   .fashion-section h3 {
-    transform: rotate(-90deg);
-    position: absolute;
-    bottom: 15%;
-    left: 45%;
     color: black;
     font-weight: 300;
     font-size: 36px;
     line-height: 43px;
+    align-self: flex-end;
+    padding-bottom: 7%;
+    padding-left: 30px;
+    text-decoration: none;
   }
 }
 * {
