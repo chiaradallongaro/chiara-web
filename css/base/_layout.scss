@@ -22,6 +22,7 @@ section {
 
 a {
     text-decoration: none;
+
 }
 
 // MOBILE
@@ -163,11 +164,20 @@ a {
         
         .skill {
             margin: 15px 0;
-            h4, a {
+            h4{
                 font-weight: 300;
                 font-size: 24px;
                 color: black;
                 text-decoration: none;
+            }
+            a {
+                font-weight: 300;
+                font-size: 24px;
+                color: black;
+                text-decoration: none;
+                &:hover {
+                    font-weight: 700;
+                }
             }
             p {
                 font-weight: 300;
