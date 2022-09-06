@@ -62,18 +62,15 @@ section {
     img {
         height: 100vh;
     }
-
     h3 {
-        font-weight: 300;
-        font-size: 36px;
-        line-height: 43px;
-        
-        color: white;
         transform: rotate(-90deg);
-        
         position: absolute;
         bottom: 209px;
         left: 142px;
         width: 100%;
+        color: white;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 43px;
     }
 }
