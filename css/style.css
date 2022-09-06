@@ -64,6 +64,34 @@ section {
   background-image: url(../../assets/fashion/maison-marigela.png);
 }
 
+#fashion-3 {
+  background-image: url(../../assets/fashion/sacai.png);
+}
+
+#fashion-4 {
+  background-image: url(../../assets/fashion/queens-gambit.png);
+}
+
+#fashion-5 {
+  background-image: url(../../assets/fashion/origami.png);
+}
+
+#fashion-6 {
+  background-image: url(../../assets/fashion/yves-klein.png);
+}
+
+#fashion-7 {
+  background-image: url(../../assets/fashion/latinoamericano.png);
+}
+
+#fashion-8 {
+  background-image: url(../../assets/fashion/film.png);
+}
+
+#fashion-9 {
+  background-image: url(../../assets/fashion/details.png);
+}
+
 * {
   padding: 0;
   margin: 0;
