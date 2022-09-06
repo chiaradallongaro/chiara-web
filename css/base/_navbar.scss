@@ -1,5 +1,7 @@
 @import "variables";
 
+
+// MOBILE
 nav {
     z-index: 99;
 
@@ -26,5 +28,12 @@ nav {
 
     .selected {
         font-weight: 700;
+    }
+}
+
+// DESKTOP
+@media only screen and (min-width: $break-1) {
+    nav {
+        padding: 13px 20%;
     }
 }
