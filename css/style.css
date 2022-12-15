@@ -94,7 +94,7 @@ a {
   }
   .about-1 .bg {
     height: 82%;
-    width: 27%;
+    width: 30%;
     -o-object-fit: cover;
        object-fit: cover;
     position: absolute;
@@ -168,11 +168,11 @@ a {
   }
   .fashion-section img {
     height: 82%;
-    width: 27%;
+    width: 30%;
     -o-object-fit: cover;
        object-fit: cover;
     position: absolute;
-    left: 25%;
+    left: 20%;
   }
   .fashion-section h3 {
     color: black;
