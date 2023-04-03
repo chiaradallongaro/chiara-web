@@ -33,6 +33,7 @@ a {
 
         .bg {
             height: 100vh;
+            object-fit: cover;
         }
 
         .logo {
@@ -70,16 +71,16 @@ a {
         }
         
         .skill {
-            margin: 15px 0;
+            margin: 10px 0;
             h4, a {
                 font-weight: 300;
-                font-size: 24px;
+                font-size: 20px;
                 color: black;
                 text-decoration: none;
             }
             p {
                 font-weight: 300;
-                font-size: 14px;
+                font-size: 12px;
             }
         }
     }

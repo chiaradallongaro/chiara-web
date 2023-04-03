@@ -26,6 +26,8 @@ a {
   }
   .about-1 .bg {
     height: 100vh;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .about-1 .logo {
     width: 240px;
@@ -54,17 +56,17 @@ a {
     line-height: 43px;
   }
   .about-section .skill {
-    margin: 15px 0;
+    margin: 10px 0;
   }
   .about-section .skill h4, .about-section .skill a {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
   }
   .about-section .skill p {
     font-weight: 300;
-    font-size: 14px;
+    font-size: 12px;
   }
   .fashion-section {
     position: relative;
